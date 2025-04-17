@@ -16,7 +16,7 @@ function App() {
       <div className="video-container">
         <div className="video-wrapper">
           <iframe
-            src={videoUrl}
+            src={videoUrl}   
             title="Candidate Introduction Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
