@@ -67,7 +67,19 @@ body {
   background: white;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
+}
+
+.time-display {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--border-radius);
+  min-width: 100px;
+  text-align: center;
 }
 
 .play-button {
